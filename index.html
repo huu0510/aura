@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ShenAura - Chuyên nông sản Việt</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        role="status"
+        style="width: 3rem; height: 3rem"
+      ></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white sticky-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
+          <a href="index.html" class="navbar-brand">
+            <img class="img-fluid" src="img/logo.png" alt="Logo" />
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler ms-auto me-0"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto">
+              <a href="index.html" class="nav-item nav-link">Trang Chủ</a>
+              <a href="about.html" class="nav-item nav-link">Giới Thiệu</a>
+
+              <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="product.html"
+                  >Sản Phẩm</a
+                >
+
+                <div class="dropdown-menu bg-light rounded-0 m-0">
+                  <a href="cashew.html" class="dropdown-item">Hạt Điều</a>
+                  <a href="macca.html" class="dropdown-item">Hạt Macca</a>
+                  <a href="almond.html" class="dropdown-item">Hạt Hạnh Nhân</a>
+                  <a href="birdnest.html" class="dropdown-item">Yến Sào</a>
+                  <a href="driedfruit.html" class="dropdown-item"
+                    >Hoa Quả Sấy</a
+                  >
+                  <a href="cerealcake.html" class="dropdown-item"
+                    >Bánh Ngũ Cốc</a
+                  >
+                </div>
+              </div>
+
+              <a href="event.html" class="nav-item nav-link">Sự Kiện</a>
+
+              <a href="contact.html" class="nav-item nav-link">Liên Hệ</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid px-0 mb-5">
+      <div
+        id="header-carousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="w-100" src="img/carousel-1.jpg" alt="Image" />
+            <div class="carousel-caption">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-7 text-center">
+                    <p class="fs-4 text-dark animated zoomIn">
+                      Đến với <strong class="text-dark">ShenAura</strong>
+                    </p>
+                    <h1 class="display-1 text-dark mb-4 animated zoomIn">
+                      <span class="text-dark">Sản phẩm hữu cơ tự nhiên</span>
+                    </h1>
+                    <!-- <a
+                      href=""
+                      class="btn btn-light rounded-pill py-3 px-5 animated zoomIn"
+                      >Explore More</a
+                    > -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="img/carousel-2.jpg" alt="Image" />
+            <div class="carousel-caption">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-7 text-center">
+                    <p class="fs-4 text-dark animated zoomIn">
+                      Trải nghiệm <strong class="text-dark">ShenAura</strong>
+                    </p>
+                    <h1 class="display-1 text-dark mb-4 animated zoomIn">
+                      Sạch, ngon & Bổ dưỡng
+                    </h1>
+                    <!-- <a
+                      href=""
+                      class="btn btn-light rounded-pill py-3 px-5 animated zoomIn"
+                      >Explore More</a
+                    > -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <div class="row g-3">
+              <div class="col-6 text-end">
+                <img
+                  class="img-fluid bg-white w-100 mb-3 wow fadeIn"
+                  data-wow-delay="0.1s"
+                  src="img/about-1.jpg"
+                  alt=""
+                />
+                <img
+                  class="img-fluid bg-white w-50 wow fadeIn"
+                  data-wow-delay="0.2s"
+                  src="img/about-3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-6">
+                <img
+                  class="img-fluid bg-white w-50 mb-3 wow fadeIn"
+                  data-wow-delay="0.3s"
+                  src="img/about-4.jpg"
+                  alt=""
+                />
+                <img
+                  class="img-fluid bg-white w-100 wow fadeIn"
+                  data-wow-delay="0.4s"
+                  src="img/about-2.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+            <div class="section-title">
+              <p class="fs-5 fw-medium fst-italic text-primary">
+                <a href="about.html"> Về chúng tôi </a>
+              </p>
+              <h1 class="display-6">
+                Những giá trị cốt lõi của ShenAura và sản phẩm
+              </h1>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col-sm-4">
+                <img
+                  class="img-fluid bg-white w-100"
+                  src="img/about-5.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-sm-8">
+                <h5>Sản phẩm hữu cơ tự nhiên, không dùng hóa chất độc hại</h5>
+                <p class="mb-0">
+                  Sức khỏe và sự an toàn của người tiêu dùng là ưu tiên hàng đầu
+                  để ShenAura lựa chọn kinh doanh các loại sản phẩm.
+                </p>
+              </div>
+            </div>
+            <div class="border-top mb-4"></div>
+            <div class="row g-3">
+              <div class="col-sm-8">
+                <h5>Chân thành, trung thực để thịnh vượng lâu dài</h5>
+                <p class="mb-0">
+                  Nhận ra rằng chỉ có giữ chữ tín mới có thể kinh doanh lâu dài,
+                  ShenAura chú trọng lòng trung thực với khách hàng, thà mất
+                  hàng chớ mất khách.
+                </p>
+              </div>
+              <div class="col-sm-4">
+                <img
+                  class="img-fluid bg-white w-100"
+                  src="img/about-6.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="text-center mt-5">
+          <a href="about.html" class="btn btn-primary rounded-pill py-3 px-5"
+            >Xem Thêm</a
+          >
+        </div> -->
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Products Start -->
+    <div class="container-fluid product py-5 my-5">
+      <div class="container py-5">
+        <div
+          class="section-title text-center mx-auto wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 500px"
+        >
+          <p class="fs-5 fw-medium fst-italic text-primary">
+            <a href="product.html">Các sản phẩm</a>
+          </p>
+          <h1 class="display-6">Các mặt hàng nông sản hữu cơ tiêu biểu</h1>
+        </div>
+        <div
+          class="owl-carousel product-carousel wow fadeInUp"
+          data-wow-delay="0.5s"
+        >
+          <a href="cashew.html" class="d-block product-item rounded">
+            <img src="img/product-1.jpg" alt="" />
+            <div
+              class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4"
+            >
+              <h4 class="text-primary">Hạt Điều</h4>
+              <span class="text-body"
+                >Gồm hạt điều nguyên vị và hạt điều rang muối</span
+              >
+            </div>
+          </a>
+          <a href="macca.html" class="d-block product-item rounded">
+            <img src="img/product-2.jpg" alt="" />
+            <div
+              class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4"
+            >
+              <h4 class="text-primary">Hạt Macca</h4>
+              <span class="text-body"
+                >Macca được gieo trồng hữu cơ tại Việt Nam</span
+              >
+            </div>
+          </a>
+          <a href="almond.html" class="d-block product-item rounded">
+            <img src="img/product-3.jpg" alt="" />
+            <div
+              class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4"
+            >
+              <h4 class="text-primary">Hạt Hạnh Nhân</h4>
+              <span class="text-body">Hạnh nhân đã qua sấy khô và rang bơ</span>
+            </div>
+          </a>
+          <a href="birdnest.html" class="d-block product-item rounded">
+            <img src="img/product-4.jpg" alt="" />
+            <div
+              class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4"
+            >
+              <h4 class="text-primary">Yến Sào</h4>
+              <span class="text-body">Gồm yến sào thô và yến sào tinh</span>
+            </div>
+          </a>
+          <a href="driedfruit.html" class="d-block product-item rounded">
+            <img src="img/product-5.jpg" alt="" />
+            <div
+              class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4"
+            >
+              <h4 class="text-primary">Hoa Quả Sấy</h4>
+              <span class="text-body"
+                >Gồm mít, chuối, khoai lang, khoai môn... sấy khô
+              </span>
+            </div>
+          </a>
+          <a href="cerealcake.html" class="d-block product-item rounded">
+            <img src="img/product-6.jpg" alt="" />
+            <div
+              class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4"
+            >
+              <h4 class="text-primary">Bánh Ngũ Cốc</h4>
+              <span class="text-body"
+                >Thành phần gồm gạo lứt, hạt bí, điều, hạnh nhân...
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="text-center wow fadeInUp" data-wow-delay="0.5s">
+        <a href="product.html" class="btn btn-primary rounded-pill py-3 px-5"
+          >Xem Thêm</a
+        >
+      </div>
+    </div>
+    <!-- Products End -->
+
+    <!-- Event Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div
+          class="section-title text-center mx-auto wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 500px"
+        >
+          <p class="fs-5 fw-medium fst-italic text-primary">
+            <a href="event.html">Sự kiện</a>
+          </p>
+          <h1 class="display-6">
+            ShenAura tham gia hội chợ xuân Giáp Thìn 2024
+          </h1>
+        </div>
+
+        <div class="row wyoutube g-4">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/apCWS8_SxLY?si=9RyCQ0MK83FoqLpL&start=35&end=77"
+            title="Ngập tràn nông sản Tết tại hội chợ xuân Giáp Thìn 2024 | VTC16"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- Event End -->
+
+    <!-- Contact Start -->
+    <div
+      class="container-xxl contact py-5 mt-5"
+      style="background-color: #f4f7ef"
+    >
+      <div class="container">
+        <div
+          class="section-title text-center mx-auto wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 500px"
+        >
+          <p class="fs-5 fw-medium fst-italic text-primary">
+            <a href="contact.html">Liên hệ</a>
+          </p>
+          <h1 class="display-6">Liên hệ chúng tôi ngay hôm nay</h1>
+        </div>
+        <div
+          class="row justify-content-center wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="col-lg-8">
+            <p class="text-center mb-5">
+              Bạn muốn đặt mua các mặt hàng của ShenAura, hay đang quan tâm,
+              thắc mắc về các sản phẩm, hoặc có những đề xuất hợp tác kinh
+              doanh? Xin đừng ngần ngại mà hãy liên hệ ngay cho chúng tôi để
+              được tư vấn nhanh chóng.
+            </p>
+            <div class="row g-5">
+              <div
+                class="col-md-4 text-center wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
+                <div class="btn-square mx-auto mb-3">
+                  <i class="fa fa-envelope fa-2x text-white"></i>
+                </div>
+
+                <p class="mb-2">info.shenaura@gmail.com</p>
+              </div>
+              <div
+                class="col-md-4 text-center wow fadeInUp"
+                data-wow-delay="0.4s"
+              >
+                <div class="btn-square mx-auto mb-3">
+                  <i class="fa fa-phone fa-2x text-white"></i>
+                </div>
+                <p class="mb-2">0946 749 194</p>
+              </div>
+              <div
+                class="col-md-4 text-center wow fadeInUp"
+                data-wow-delay="0.5s"
+              >
+                <div class="btn-square mx-auto mb-3">
+                  <i class="fa fa-map-marker-alt fa-2x text-white"></i>
+                </div>
+                <p class="mb-2">Số 8 ngõ 29 Võng Thị, Tây Hồ, Hà Nội</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark pt-5 footer wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-primary mb-4">Văn Phòng</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt text-primary me-3"></i>29/8 Võng
+              Thị, Tây Hồ, HN
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt text-primary me-3"></i>0946 749 194
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope text-primary me-3"></i
+              >info.shenaura@gmail.com
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-primary mb-4">Liên Kết</h4>
+            <a class="btn btn-link" href="about.html">Giới Thiệu</a>
+            <a class="btn btn-link" href="product.html">Sản Phẩm</a>
+            <a class="btn btn-link" href="contact.html">Liên Hệ</a>
+            <a class="btn btn-link" href="event.html">Sự Kiện</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-primary mb-4">Giờ Làm Việc</h4>
+            <p class="mb-1">Thứ Hai - Thứ Sáu</p>
+            <h6 class="text-light">08:00 am - 06:00 pm</h6>
+            <p class="mb-1">Thứ Bảy</p>
+            <h6 class="text-light">08:00 am - 12:00 pm</h6>
+            <p class="mb-1">Chủ Nhật</p>
+            <h6 class="text-light">Nghỉ</h6>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-primary mb-4">Newsletter</h4>
+            <p>Xin liên hệ chúng tôi nếu có nhu cầu đăng ký nhận newsletter.</p>
+            <div class="position-relative w-100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 text-center text-md-start mb-3 mb-md-0">
+            &copy;
+            <a class="fw-medium">2024 Công ty TNHH TM & ĐT ShenAura</a>, All
+            Right Reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
